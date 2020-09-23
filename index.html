@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="ISO-8859-1">
+ <title> HTML PAGE </title>
+ </head>
+ <body>
+ <h1>Search</h1>
+ <form method="POST" action="SearchServlet"/>
+ <input name="field" type="text" /><br> 
+ <input type="radio" name="toggle" value="partial" checked> Partial Search <br>
+ <input type="radio" name="toggle" value="exact"> Exact Seacrh <br>
+ <input type="radio" name="privacy" value="on" checked> Private <br>
+ <input type="radio" name="privacy" value="off"> Public <br>
+ <input type="submit" value="Submit"/>
+ </form>
+
+ <form method="POST" action="/history"/>
+ <input type = "submit" value = "Search History">
+ </form>
+
+ </body>
+ </html>
